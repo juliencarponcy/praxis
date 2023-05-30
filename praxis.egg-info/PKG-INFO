@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: praxis
+Version: 0.0.1
+Summary: Test package to analyze geospatial soil data for Green Praxis
+Home-page: https://github.com/juliencarponcy/praxis
+Author: Julien Carponcy
+Author-email: juliencarponcy@gmail.com
+License: MIT license
+Keywords: praxis
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+
+========
+praxis
+========
+
+Package to perform geopsatial data science / data engineering test for the position at Green Praxis
+
+Install
+-------
+
+* Make sure you have conda installed
+* download https://github.com/juliencarponcy/praxis 
+* or, if you have git installed:
+       
+``git clone https://github.com/juliencarponcy/praxis`` 
+    
+* Navigate into the root folder
+      
+``cd praxis``
+    
+* Create environment called praxis (you can change the name of the environment by modifying the praxis.yaml file
+    
+``conda env create -f praxis.yaml``
+
+Usage
+-----
+
+* Activate notebooks by command line using:
+
+``conda activate praxis``
+
+* Do this in the virtual environment to make modules in the repo available:
+
+``pip install -e .``
+
+* Launch Jupyter
+``jupyter-notebook``

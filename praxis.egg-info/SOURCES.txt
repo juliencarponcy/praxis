@@ -1,0 +1,9 @@
+README.rst
+setup.py
+praxis/__init__.py
+praxis/praxis.py
+praxis.egg-info/PKG-INFO
+praxis.egg-info/SOURCES.txt
+praxis.egg-info/dependency_links.txt
+praxis.egg-info/not-zip-safe
+praxis.egg-info/top_level.txt
