@@ -12,7 +12,10 @@ dependencies:
   - matplotlib
   - geopandas
   - pandas
+  - scipy
+  - numpy
   - pip:
-    - rasterio
+    - geoplot
+    - contextily
 
 
